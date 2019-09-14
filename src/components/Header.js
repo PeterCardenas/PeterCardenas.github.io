@@ -1,3 +1,4 @@
+/* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {
     Component
@@ -11,7 +12,7 @@ export default class Header extends Component {
                 <header id = "home" >
                     <nav id = "nav-wrap">
                         <a className = "mobile-btn" href = "#nav-wrap" title = "Show navigation"> Show navigation </a>
-                        <a className = "mobile-btn" href = "#" title = "Hide navigation"> Hide navigation </a>
+                        <a className = "mobile-btn" href = "#nowhere" title = "Hide navigation"> Hide navigation </a>
                         <ul id = "nav" className = "nav">
                             <li className = "current">
                                 <a id = "homeLink" className = "smoothscroll" href = "#home"> Home </a>
@@ -23,10 +24,10 @@ export default class Header extends Component {
                                 <a id = "resumeLink" className = "smoothscroll" href = "#resume"> Resume </a>
                             </li>
                             <li>
-                                <a id = "portfolioLink" className = "smoothscroll" onClick = {this.portfolioClick}> Works </a>
+                                <a id = "portfolioLink" className = "smoothscroll" href = "#portfolio"> Works </a>
                             </li>
                             <li>
-                                <a id = "contactLink" className = "smoothscroll" onClick = {this.contactClick}> Contact </a>
+                                <a id = "contactLink" className = "smoothscroll" href = "#contact"> Contact </a>
                             </li>
                         </ul>
                     </nav>

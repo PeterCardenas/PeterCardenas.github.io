@@ -23,48 +23,20 @@ jQuery(document).ready(function($) {
 
   $(".smoothscroll").on("click", function(e) {
     e.preventDefault();
-    let id = e.target.id;
-
-    if (id === "portfolioLink") {
-        $("html, body")
-          .stop()
-          .animate({
-            scrollTop:
-              document.body.scrollHeight -
-              document.getElementsByTagName("footer")[0].scrollHeight -
-              document.getElementById("contact").scrollHeight -
-              document.getElementById("portfolio").scrollHeight -
-              400
-          },
-          800,
-          "swing");
-    } else if (id === "contactLink") {
-        $("html, body")
-          .stop()
-          .animate(
-            {
-              scrollTop: document.body.scrollHeight
-            },
-            800,
-            "swing"
-          );
-    } else {
-        let target = this.hash,
-          $target = $(target);
-
-        $("html, body")
-          .stop()
-          .animate(
-            {
-              scrollTop: $target.offset().top
-            },
-            800,
-            "swing",
-            function() {
-              window.location.hash = target;
-            }
-          );
-    }
+    // let id = e.target.id;
+    let target = this.hash, $target = $(target);
+    $("html, body")
+      .stop()
+      .animate(
+        {
+          scrollTop: $target.offset().top
+        },
+        800,
+        "swing",
+        function() {
+          window.location.hash = target;
+        }
+    );
   });
 
   /*----------------------------------------------------*/
@@ -79,7 +51,8 @@ jQuery(document).ready(function($) {
   });
 
   /*----------------------------------------------------*/
-  /*	Fade In/Out Primary Navigation and Highlight the current section in the navigation bar
+  /*	Fade In/Out Primary Navigation,
+        Highlight the current section in the navigation bar
 ------------------------------------------------------*/
 
   let currentSection = "home";
@@ -108,8 +81,8 @@ jQuery(document).ready(function($) {
     let contactLink = $('#nav-wrap a#contactLink');
 
     let aboutLocation = $("#about").height() + headerHeight;
-    let resumeLocation = $("#resume").height() + aboutLocation - 200;
-    let portfolioLocation = $("#portfolio").height() + resumeLocation - 200;
+    let resumeLocation = $("#resume").height() + aboutLocation;
+    let portfolioLocation = $("#portfolio").height() + resumeLocation;
     let contactLocation = $("#contact").height() + portfolioLocation;
 
     if (currentSection !== "home" && y < headerHeight) {
