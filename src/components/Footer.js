@@ -13,7 +13,7 @@ export default class Footer extends Component {
                                 resumeData.socialLinks && resumeData.socialLinks.map((link, index) => {
                                     return (
                                         <li key = {index}>
-                                            <a href = {link.url}>
+                                            <a href = {link.url} target = "_blank" rel="noopener noreferrer">
                                                 <i className = {link.className}/>
                                             </a>
                                         </li>
@@ -26,6 +26,9 @@ export default class Footer extends Component {
                         <a className = "smoothscroll" title = "Back to Top" href = "#home">
                             <i className = "icon-up-open"/>
                         </a>
+                    </div>
+                    <div className = "copyright">
+                        <p> Copyright © 2019 by Peter Cardenas</p>
                     </div>
                 </div>
             </footer>

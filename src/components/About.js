@@ -18,8 +18,8 @@ export default class About extends Component {
                                 <h2> Contact Details </h2>
                                 <p className = "address">
                                     <span> {resumeData.name} </span><br></br>
-                                    <span><a href = {`mailto:${resumeData.email}`}> {resumeData.email} </a></span><br/>
-                                    <span><a href = {resumeData.linkedIn}> {resumeData.linkedIn} </a></span>
+                                    <span><a href = {`mailto:${resumeData.email}`} target = "_blank" rel="noopener noreferrer"> {resumeData.email} </a></span><br/>
+                                    <span><a href = {resumeData.linkedIn} target = "_blank" rel="noopener noreferrer"> {resumeData.linkedIn} </a></span>
                                 </p>
                             </div>
                         </div>

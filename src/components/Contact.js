@@ -16,8 +16,8 @@ export default class Contact extends Component {
                 <div className = "row">
                     <aside className = "eigth columns footer-widgets">
                         <div className = "widget">
-                            <h4> Email: <a href = {`mailto:${resumeData.email}`}> peter.cardenas@utexas.edu </a></h4>
-                            <h4> LinkedIn: <a href = {resumeData.linkedIn}> {resumeData.linkedInId} </a></h4>
+                            <h4> Email: <a href = {`mailto:${resumeData.email}`} target = "_blank" rel="noopener noreferrer"> peter.cardenas@utexas.edu </a></h4>
+                            <h4> LinkedIn: <a href = {resumeData.linkedIn} target = "_blank" rel="noopener noreferrer"> {resumeData.linkedInId} </a></h4>
                         </div>
                     </aside>
                 </div>

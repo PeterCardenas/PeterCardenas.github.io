@@ -71,7 +71,7 @@ let resumeData = {
     }
   ],
   skillsDescription: "",
-  skills: ["HTML5", "CSS", "ReactJS", "C#", "NodeJS", "Java"],
+  skills: ["HTML5", "CSS", "ReactJS", "C#", "NodeJS", "Java", "Python"],
   portfolio: [
     {
       name: "Model Scheduler",
@@ -122,6 +122,16 @@ let resumeData = {
         "Used Magnific Popup library to handle modals along with state management"
       ],
       imgUrl: "images/portfolio/portfolio.jpg"
+    },
+    {
+        name: "Calendar Converter",
+        description: "Python Web Scraping Application",
+        longDescription: [
+            "Developed an application that scrapes the UTCS Calendar Website for event information to put onto Google Calendar",
+            "Utilized the Selenium library to parse HTML and automate page interaction",
+            "Used Google Calendar API through Google Cloud Platform to add event information"
+        ],
+        imgUrl: "images/portfolio/calendar.jpg"
     }
   ]
 };
