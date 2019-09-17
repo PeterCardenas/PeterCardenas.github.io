@@ -24,4 +24,4 @@ This is my portfolio website made using ReactJS and HTML/CSS.
 ### Deploy
 
 - Change `homepage` in `package.json` to be your website URL
-- `npm run deploy`
+- `npm run deploy -- "<commit message>"`
