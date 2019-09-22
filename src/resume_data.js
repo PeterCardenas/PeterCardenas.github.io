@@ -4,6 +4,7 @@ let resumeData = {
   linkedInId: "peter-cardenas",
   linkedIn: "https://www.linkedin.com/in/peter-cardenas/",
   skypeid: "petercardenas441",
+  link: "/images/Peter_Cardenas_Resume.pdf",
   roleDescription:
     "I am a fervent learner and engineer, and I desire to work with others who share my passion for technology and innovation. I am currently experienced in full-stack development, with an emphasis in backend architecture. Currently looking for software engineer internships.",
   socialLinks: [
@@ -23,7 +24,8 @@ let resumeData = {
       className: "fa fa-envelope"
     }
   ],
-  about: "I am currently a freshman at the University of Texas at Austin. I love creating and learning new things, especially in regards to Computer Science. In my free time, I like play the violin, watch movies, and go jogging.",
+  about:
+    "I am currently a freshman at the University of Texas at Austin. I love creating and learning new things, especially in regards to Computer Science. In my free time, I like play the violin, watch movies, and go jogging.",
   email: "peter.cardenas@utexas.edu",
   education: [
     {
@@ -104,14 +106,14 @@ let resumeData = {
       imgUrl: "images/portfolio/ping_pong.jpg"
     },
     {
-        name: "Digital Card Game",
-        description: "Unity Multiplayer Game",
-        longDescription: [
-            "Developed an original card game using the Unity Game Engine",
-            "Implemented the Unity Networking API for state synchronization and remote procedure calls",
-            "Used Object Oriented Programming concepts for players and player objects"
-        ],
-        imgUrl: "images/portfolio/card.jpg"
+      name: "Digital Card Game",
+      description: "Unity Multiplayer Game",
+      longDescription: [
+        "Developed an original card game using the Unity Game Engine",
+        "Implemented the Unity Networking API for state synchronization and remote procedure calls",
+        "Used Object Oriented Programming concepts for players and player objects"
+      ],
+      imgUrl: "images/portfolio/card.jpg"
     },
     {
       name: "Portfolio Website",
@@ -124,14 +126,14 @@ let resumeData = {
       imgUrl: "images/portfolio/portfolio.jpg"
     },
     {
-        name: "Calendar Converter",
-        description: "Python Web Scraping Application",
-        longDescription: [
-            "Developed an application that scrapes the UTCS Calendar Website for event information to put onto Google Calendar",
-            "Utilized the Selenium library to parse HTML and automate page interaction",
-            "Used Google Calendar API through Google Cloud Platform to add event information"
-        ],
-        imgUrl: "images/portfolio/calendar.jpg"
+      name: "Calendar Converter",
+      description: "Python Web Scraping Application",
+      longDescription: [
+        "Developed an application that scrapes the UTCS Calendar Website for event information to put onto Google Calendar",
+        "Utilized the Selenium library to parse HTML and automate page interaction",
+        "Used Google Calendar API through Google Cloud Platform to add event information"
+      ],
+      imgUrl: "images/portfolio/calendar.jpg"
     }
   ]
 };
