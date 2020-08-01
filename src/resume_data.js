@@ -123,7 +123,8 @@ let resumeData = {
         "Optimized JSX and CSS for styling purposes",
         "Used Magnific Popup library to handle modals along with state management"
       ],
-      imgUrl: "images/portfolio/portfolio.jpg"
+      imgUrl: "images/portfolio/portfolio.jpg",
+	  linkUrl: "https://github.com/PeterCardenas/PeterCardenas.github.io/tree/develop",
     },
     {
       name: "Calendar Converter",
@@ -133,7 +134,8 @@ let resumeData = {
         "Utilized the Selenium library to parse HTML and automate page interaction",
         "Used Google Calendar API through Google Cloud Platform to add event information"
       ],
-      imgUrl: "images/portfolio/calendar.jpg"
+      imgUrl: "images/portfolio/calendar.jpg",
+	  linkUrl: "https://github.com/PeterCardenas/utcs-calendar",
     }
   ]
 };
