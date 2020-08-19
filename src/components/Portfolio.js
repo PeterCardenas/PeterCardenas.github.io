@@ -79,7 +79,9 @@ export default class Porfolio extends Component {
                                 >
                                     <h4> {this.state.name} </h4>
                                 </a>
-                            ) : null
+                            ) : (
+                                <h4> {this.state.name} </h4>
+                            )
                         }
                         <p> {this.state.description} </p>
                         <ul className="description-list dashed">
