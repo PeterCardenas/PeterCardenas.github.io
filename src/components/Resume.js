@@ -39,19 +39,6 @@ const Job = ({
                         }
                     </ListGroup>
                 </Collapse>
-                {/* <Collapsible trigger='View contribution details' triggerWhenOpen='Hide contribution details'>
-                    <ListGroup as="ul" className="job-description dashed">
-                        {
-                            job.description && job.description.map((descText, index) => {
-                                return (
-                                    <ListGroup.Item as="li" key={index}>
-                                        {descText}
-                                    </ListGroup.Item>
-                                );
-                            })
-                        }
-                    </ListGroup>
-                </Collapsible> */}
             </div>
         </div>
     );
@@ -86,6 +73,8 @@ export default class Resume extends Component {
                                                 {education.major}
                                                 <span> &bull; </span>
                                                 <em className="date">{education.monthOfStarting} {education.yearOfStarting} - {education.monthOfPassing} {education.yearOfPassing}</em>
+                                                <span> &bull; </span>
+                                                <em className="gpa">{education.actualGpa} / {education.maxGpa}</em>
                                             </p>
                                         </div>
                                     </div>

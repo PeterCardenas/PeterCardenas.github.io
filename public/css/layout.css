@@ -375,7 +375,8 @@ ul#nav li.current a {
     margin-left: 5px;
 }
 
-#resume .date {
+#resume .date,
+#resume .gpa {
     font: 15px/24px 'opensans-regular', sans-serif;
     margin-top: 6px;
 }

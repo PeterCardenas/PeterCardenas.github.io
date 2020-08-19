@@ -31,7 +31,9 @@
             "monthOfStarting": "Aug",
             "yearOfStarting": "2019",
             "monthOfPassing": "May",
-            "yearOfPassing": "2023"
+            "yearOfPassing": "2023",
+            "actualGpa": "3.808",
+            "maxGpa": "4.0"
         }
     ],
     "work": [
