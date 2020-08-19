@@ -28,7 +28,7 @@ export default class Footer extends Component {
                         </a>
                     </div>
                     <div className = "copyright">
-                        <p> Copyright © 2019 by Peter Cardenas</p>
+                        <p> Copyright © 2020 by Peter Cardenas</p>
                     </div>
                 </div>
             </footer>

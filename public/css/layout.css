@@ -321,8 +321,14 @@ ul#nav li.current a {
 }
 
 #resume a:hover,
-#resume a:focus {
+#resume a:focus,
+#resume .collapse-title:hover {
     color: #11ABB0;
+    cursor: pointer;
+}
+
+#resume .ReactCollapse--collapse {
+    transition: height 500ms;
 }
 
 #resume h1 {

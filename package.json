@@ -4,9 +4,15 @@
     "private": true,
     "homepage": "https://petercardenas.github.io",
     "dependencies": {
+        "bootstrap": "^4.5.2",
+        "prop-types": "^15.7.2",
         "react": "^16.9.0",
+        "react-bootstrap": "^1.3.0",
+        "react-collapse": "^5.0.1",
+        "react-collapsible": "^2.8.0",
         "react-dom": "^16.9.0",
-        "react-scripts": "^3.1.1"
+        "react-responsive-accordion": "^1.0.0",
+        "react-scripts": "^3.4.3"
     },
     "scripts": {
         "start": "react-scripts start",
