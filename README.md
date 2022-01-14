@@ -1,0 +1,1 @@
+Currently redirects to https://peter-cardenas.com. The repo for it can be found at https://github.com/PeterCardenas/portfolio-website. For the old create-react-app website that was hosted here, go to https://github.com/PeterCardenas/cra-portfolio-website
